@@ -1,0 +1,41 @@
+.todo-list{
+    list-style: none;
+    padding-top: 10px;
+}
+.item{
+   height: 50px;
+    background-color: rgb(56, 55, 55);
+    border-radius: 20px;
+    margin-top: 20px;
+    
+}
+.item-text{
+    float: left;
+    width: 80% ;
+    color: rgb(248, 6, 147);
+    text-align: left;
+    padding: 10px;
+}
+.operations{
+    float: left;
+    width: 20% ;
+    padding: 10px;
+    text-align: left;
+   
+}
+
+.operation{
+    width: 15px;
+    height: 15px;
+    margin-right:5px ;
+}
+
+.operations a{
+    display: inline-block;
+    margin:0 5px;
+}
+
+.operations i{
+    font-size:  16px;
+    color: rgb(248, 6, 147);
+}
