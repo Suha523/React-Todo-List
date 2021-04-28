@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+form{
+    display: flex;
+    padding: 0 10px;
+}
+.toDo-input{
+    width: 70%;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 10px;
+    border: black 1px solid;
+    background-color: gainsboro;
+    font-size: 17px;
+}
+
+.add-btn{
+    width: 30%;
+    padding: 15px;
+    border-radius: 10px;
+    border: black 1px solid;
+    background-color: rgb(56, 55, 55);
+    color: rgb(248, 6, 147);
+    text-transform: capitalize;
+    font-size: 15px;
+}

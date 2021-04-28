@@ -1,0 +1,31 @@
+.h5-size{
+    font-size: 18px;
+}
+
+.p-size{
+    font-size: 16px;
+}
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.151);
+   
+}
+
+.overlay i{
+    display: none;
+    font-size: 50px;
+    color: black;
+}
+
+.card:hover .overlay{
+    background-color: rgba(210, 105, 30, 0.637);
+    display: inline-block;
+    
+}
+
+.card:hover i{
+    display: inline-block;
+}
+

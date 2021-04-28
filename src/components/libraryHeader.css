@@ -1,0 +1,28 @@
+/* body{
+    height: 2000px;
+} */
+
+.libHeader{
+    background-image: url(../img/pexels-pixabay-159711.jpg);
+    background-size: cover;
+    background-position: 0 -130px ;
+    position: relative;
+    height: 600px;
+    background-attachment: fixed;
+    color: white;
+    
+}
+.z-i{
+    z-index:99999999999;
+}
+.overlay{
+    background-color:  rgba(0,0,0,0.3);
+    position: absolute;
+    top:0;
+    left:0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    
+   
+}
